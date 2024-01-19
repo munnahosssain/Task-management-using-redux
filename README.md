@@ -1,2 +1,1 @@
-Tasksmaster Server => https://github.com/mir-hussain/taskmaster-server
-# Task-management-using-redux
+Tasks Management Server => https://github.com/munnahosssain/tasks-manaement-server
