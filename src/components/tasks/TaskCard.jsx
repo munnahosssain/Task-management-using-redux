@@ -8,6 +8,7 @@ import {
 const TaskCard = ({ task }) => {
   const dispatch = useDispatch();
   const { tasks } = useSelector((state) => state.taskSlice);
+  
 
   let updatedStatus;
   if (task.status === "pending") {
@@ -20,6 +21,7 @@ const TaskCard = ({ task }) => {
 
   return (
     <div className="bg-secondary/10 rounded-md p-5">
+      
       <h1
         className={`text-lg font-semibold mb-3 ${
           tasks.priority === "high" ? "text-red-500" : ""
